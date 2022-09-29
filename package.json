@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start:dev": "webpack server --config config/webpack.dev.js",
+    "lint": "eslint . src config || true",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
