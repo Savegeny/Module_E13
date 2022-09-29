@@ -6,6 +6,7 @@ module.exports =merge(common, {
      contentBase: '../dist',
      //open: true,
      //port: 3001,
+     allowedHosts: 'auto',
      hot: true,
      stats:{
       children: false,

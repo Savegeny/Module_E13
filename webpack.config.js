@@ -7,6 +7,7 @@ module.exports =merge(common, {
      devtool: 'inline-source-map',
      //open: true,
      //port: 3001,
+     allowedHosts: 'auto',
      hot: true,
      stats:{
       children: false,
